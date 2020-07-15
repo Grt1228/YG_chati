@@ -5,6 +5,7 @@
     "l-card": "/dist/card/index",
     "l-loading": "/dist/loading/index",
     "share-button": "/components/share-button/index",
-    "l-message": "/dist/message/index"
+    "l-message": "/dist/message/index",
+    "l-notice-bar": "/dist/notice-bar/index"
   }
 }

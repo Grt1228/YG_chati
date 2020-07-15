@@ -1,12 +1,12 @@
 <view>
+  <l-notice-bar show="{{true}}" front-icon-name="notification" type="roll">点 击 卡 片 可 直 接 复 制 整 个 卡片 信 息 。</l-notice-bar>
   <share-button></share-button>
-
   <block wx:if='{{loading}}'>
     <l-loading show="true" type="flip" color="#27c18f" full-screen="{{true}}" bg-color="#f3f3f3" size="large" opacity="0.65"></l-loading>
   </block>
 
   <view>
-    <view class="content" wx:for="{{answer}}" wx:for-item="item" wx:key="*this">
+    <view class="content" wx:for="{{answer}}" wx:for-item="item" wx:key="*this" bindtap='copyLink' data-link="{{item.answer}}">
       <view class="question">
         <text class="question-text">问题：</text> {{item.question}}
       </view>

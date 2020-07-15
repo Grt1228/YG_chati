@@ -52,6 +52,17 @@ Page({
       content: "系统异常请重试"
     })
   },
+  copyLink: function(e){
+    wx.setClipboardData({
+      data: e.currentTarget.dataset.link,
+      success: () => {
+        wx.showToast({
+          title: '已复制',
+          duration: 1500,
+        })
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
