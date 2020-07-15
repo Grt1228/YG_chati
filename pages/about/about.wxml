@@ -9,9 +9,9 @@
   <view class="share">
     <view class='address-container'>
       <view class='dot' />
-      <view class='doc-container' bindtap='copyLink' data-link="https://github.com/Grt1228/utools">
+      <view class='doc-container' bindtap='copyLink' data-link="https://github.com/Grt1228/YG_chati">
         <text class='doc-txt'>代码开源地址</text>
-        <text class='address'>https://github.com/Grt1228/utools</text>
+        <text class='address'>https://github.com/Grt1228/YG_chati</text>
       </view>
     </view>
     <view class='address-container'>

@@ -17,9 +17,11 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.data.answer = [];
-    this.data.question = "";
     this.data.question = options.question;
+    this.setData({
+      loading: true
+    })
+    this.getAnswer(this.data.question);
   },
   getAnswer: function (question) {
     var that = this;
@@ -28,10 +30,11 @@ Page({
   },
   successCallBack: function (res) {
     if (res.code == "200") {
-      this.data.answer = res.data;
-      //wx.lin.hideLoading()
+      //this.data.answer = res.data;
+      wx.lin.hideLoading()
       this.setData({
-        loading: false
+        loading: false,
+        answer: res.data
       })
     } else {
       wx.lin.showMessage({
@@ -53,10 +56,7 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    this.setData({
-      loading: false
-    })
-    this.getAnswer(this.data.question);
+    
   },
 
   /**
