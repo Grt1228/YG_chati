@@ -1,0 +1,110 @@
+/* pages/about/about.wxss */
+
+page {
+  background: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  height: 300rpx;
+}
+
+.head-img {
+  width: 110rpx;
+  height: 110rpx;
+  padding: 0 315rpx;
+  padding-top: 30rpx;
+}
+
+.head-name {
+  text-align: center;
+  padding-top: 5rpx;
+  font-size: 30rpx;
+  color: #fff;
+}
+
+.head-info {
+  text-align: center;
+  padding-top: 5rpx;
+  padding-bottom: 20rpx;
+  font-size: 28rpx;
+  color: #fff;
+}
+
+.share {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100rpx;
+}
+
+.address-container {
+  width: 690rpx;
+  margin: 0 auto 5rpx auto;
+  height: 142rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+}
+
+.dot {
+  width: 24rpx;
+  height: 24rpx;
+  border-radius: 50%;
+  background-color: #27c18f;
+  margin-left: 40rpx;
+}
+
+.doc-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+
+.doc-txt {
+  color: #8c98ae;
+  font-size: 24rpx;
+}
+
+.address {
+  font-size: 28rpx;
+  color: #596c8e;
+}
+
+.code {
+  width: 210rpx;
+  height: 210rpx;
+  margin: 10rpx auto 30rpx auto;
+}
+
+.desc {
+  color: #8c98ae;
+  font-size: 24rpx;
+  margin-top: 5rpx;
+}
+
+.account {
+  width: 690rpx;
+  margin-top: 30rpx;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+.body-title{
+  color: #D51007;
+  font-size: 30rpx;
+}
+.body-text{
+  font-size: 26rpx;
+  padding-top: 20rpx;
+}

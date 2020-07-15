@@ -1,0 +1,29 @@
+<!--pages/about/about.wxml-->
+<view>
+  <share-button></share-button>
+  <view class='head'>
+    <image class='head-img' src='/images/mypage/logo.png'></image>
+    <text class='head-name'>UTools</text>
+    <text class='head-info'>大学查题目必备小程序。</text>
+  </view>
+  <view class="share">
+    <view class='address-container'>
+      <view class='dot' />
+      <view class='doc-container' bindtap='copyLink' data-link="https://github.com/Grt1228/utools">
+        <text class='doc-txt'>代码开源地址</text>
+        <text class='address'>https://github.com/Grt1228/utools</text>
+      </view>
+    </view>
+    <view class='address-container'>
+      <view class='dot' />
+      <view class='doc-container' bindtap='copyLink' data-link="wxb5e8118e8644376f">
+        <text class='doc-txt'>欢迎公众号关联小程序AppId：</text>
+        <text class='address'>wxb5e8118e8644376f</text>
+      </view>
+    </view>
+    <!-- <official-account class="account"></official-account>
+  <image bindtap='onImage' src='/images/mypage/26.6km.jpg' class='code'></image>
+  <text class='desc'>关注我的个人公众号</text>
+  <text class='desc'>点击图片可保存二维码识别</text> -->
+  </view>
+</view>

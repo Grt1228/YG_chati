@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <share-button></share-button>
+  <view class="header">
+    <image class="header-logo" src="/images/index/search.png"></image>
+  </view>
+  <view class="search-input">
+    <l-textarea auto-height="{{false}}" bind:lininput="changeQuestion" style="height : 200rpx" maxlength="-1" indicator="{{false}}" placeholder="输入题目......" value="{{question}}" />
+  </view>
+  <view class="btn-container">
+    <l-button bindtap="getAnswer" type="default" shape="semicircle" bg-color="#333333" width="170" height="85" class="btn1">搜索</l-button>
+    <l-button bindtap="clearAnswer" type="default" shape="semicircle" bg-color="#27c18f" width="170" height="85">清空</l-button>
+  </view>
+  <l-message content="{{content}}" type="{{type}}" duration="{{ duration}}" show="{{show}}" />
+</view>

@@ -1,0 +1,16 @@
+<view>
+  <share-button></share-button>
+
+  <!-- <l-loading show="{{loading}}" type="flip" color="#27c18f" full-screen="{{true}}" bg-color="#f3f3f3" size="large" opacity="0.65"></l-loading> wx:if='{{!loading}}' -->
+  <view >
+    <view class="content" wx:for="{{answer}}" wx:for-item="item" wx:key="*this">
+      <view class="question">
+        <text class="question-text">问题：</text> {{item.question}}
+      </view>
+      <view class="answer">
+        <text class="question-text">答案：</text> {{item.answer}}
+      </view>
+    </view>
+  </view>
+  <l-message content="{{content}}" type="{{type}}" duration="{{duration}}" show="{{show}}" />
+</view>

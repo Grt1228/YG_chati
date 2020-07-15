@@ -1,0 +1,32 @@
+/**index.wxss**/
+page {
+  background: #f7f7f7;
+}
+.container{
+
+  margin-top: 150rpx;
+  align-items: center;
+}
+
+.header {
+  padding: 60rpx;
+  text-align: center;
+}
+
+.header-logo {
+  width: 110rpx;
+  height: 110rpx;
+}
+.search-input{
+  margin: auto 20rpx;
+}
+
+.btn-container{
+  padding: 30rpx;
+  text-align: center;
+}
+.btn1{
+  margin-right: 30rpx;
+}
+
+/**#b2873ba6**/

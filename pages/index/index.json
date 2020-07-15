@@ -1,0 +1,11 @@
+{
+  "navigationBarBackgroundColor": "#333333",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "l-textarea": "/dist/textarea/index",
+    "l-icon": "/dist/icon/index",
+    "l-button": "/dist/button/index",
+    "share-button": "/components/share-button/index",
+    "l-message": "/dist/message/index"
+  }
+}

@@ -1,0 +1,25 @@
+/* pages/index/detail/detail.wxss */
+
+page {
+  background: #f7f7f7;
+}
+
+.content {
+  background-color: #e7e7e7;
+  display: flex;
+  flex-direction: column;
+  margin: 30rpx 30rpx 15rpx 30rpx;
+  border-radius : 30rpx;
+}
+
+.question {
+  margin: 30rpx 30rpx 15rpx 30rpx;
+}
+
+.question-text {
+  font-weight: 600;
+}
+
+.answer {
+  margin: 30rpx 30rpx 15rpx 30rpx;
+}
