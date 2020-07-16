@@ -4,4 +4,4 @@
 
 # 微信端 扫码或搜索——牙膏查题
 
-<img src="https://g-photo.oss-cn-shanghai.aliyuncs.com/gh_5eadfd88eb7f_344.jpg" height="210" width="210" >
+<img src="https://s1.ax1x.com/2020/07/16/UDiTGn.jpg" alt="UDiTGn.jpg" border="0" />
